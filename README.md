@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ Simbian Security Alert Comparison
 
-## Getting Started
+This project is a UI/UX simulation built with **Next.js (App Router)**, **Tailwind CSS**, and **Framer Motion**. It visually compares the difference between a chaotic, manual alert-handling environment and an automated system powered by Simbian.
 
-First, run the development server:
+## 📽️ What It Does
 
-```bash
+- 🔴 **Without Simbian:** Real-time animated alert cards showing false positives and active threats.
+- 🟢 **With Simbian:** Smooth horizontal step flow showing automated triage and resolution.
+- Responsive layout with modern UI components, transitions, and dark mode support.
+
+## 💡 Thought Process
+
+This project was designed to visually compare the chaos of unmanaged security alerts ("Without Simbian") with the clarity and efficiency of automated threat resolution ("With Simbian"). I focused on creating a clear narrative flow by using animated alert cards that simulate real-time activity and a horizontal step-by-step visualization to reflect automation benefits. The intention was to make the contrast between the two scenarios immediately obvious to a viewer, even without much context.
+
+The dashboard uses **Framer Motion** as the core animation library for smooth transitions, shaking effects, and component entry/exit. With more time, I would refine the visual hierarchy, enhance responsiveness for smaller screens, and possibly include simulated user interactivity (like toggling views or dragging elements). There are no major known issues, but a polished dark/light toggle switch and backend-driven alert data could improve realism.
+
+## ⚙️ Tech Stack
+
+- **Framework:** Next.js 14 with App Router
+- **Styling:** Tailwind CSS (Dark mode supported)
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Utilities:** clsx
+
+## 🚀 Getting Started
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/simbian-alerts-ui.git
+   cd simbian-alerts-ui
+
+   Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the development server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000 to view the app.
