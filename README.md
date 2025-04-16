@@ -1,5 +1,7 @@
 # 🛡️ Simbian Security Alert Comparison
 
+Vercel deployment : https://simbian-alerts-ui.vercel.app/
+
 This project is a UI/UX simulation built with **Next.js (App Router)**, **Tailwind CSS**, and **Framer Motion**. It visually compares the difference between a chaotic, manual alert-handling environment and an automated system powered by Simbian.
 
 ## 📽️ What It Does
